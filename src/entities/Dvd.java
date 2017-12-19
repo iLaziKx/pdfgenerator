@@ -18,7 +18,7 @@ public class Dvd extends Article{
 
     @Override
     public String toString() {
-        return "\n"+this.getRef()+"\n"+this.getDesignation()+"\n"+this.getDuree();
+        return super.toString()+"\n durée = "+duree;
     }
     
     

@@ -29,7 +29,8 @@ public class Realisateur extends Personne{
         this.listDvds = listDvds;
     }
 
-    
-    
-    
+    @Override
+    public String toString() {
+        return super.toString()+"\n"+listDvds;
+    }
 }

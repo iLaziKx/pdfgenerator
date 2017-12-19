@@ -28,7 +28,7 @@ public class Livre extends Article{
 
     @Override
     public String toString() {
-        return "\n"+this.getRef()+"\n"+this.getDesignation()+"\n"+this.getIsbn()+"\n"+this.getNbPages();
+        return super.toString()+"\n ISBN = "+isbn+"\n nombre de pages = "+nbPages;
     }
     
     

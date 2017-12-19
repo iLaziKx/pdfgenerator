@@ -28,5 +28,10 @@ public class Auteur extends Personne{
         this.listLivres = listLivres;
     }
 
+    @Override
+    public String toString() {
+        return super.toString()+"\n"+listLivres;
+    }
+
     
 }

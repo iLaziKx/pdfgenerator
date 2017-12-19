@@ -18,9 +18,7 @@ public class S03PooJSE {
         aut.getListLivres().add(livre);
         
         System.out.println(rea);
-        System.out.println(rea.getListDvds());
         System.out.println(aut);
-        System.out.println(aut.getListLivres());
     }
     
 }

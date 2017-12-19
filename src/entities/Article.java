@@ -38,4 +38,9 @@ public abstract class Article {
         this.prix = prix;
     }
 
+    @Override
+    public String toString() {
+        return "\n référence = " + ref + ", \n designation = " + designation + ", \n prix = " + prix;
+    }
+
 }

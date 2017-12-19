@@ -40,7 +40,7 @@ public abstract class Personne {
 
     @Override
     public String toString() {
-        return this.getPrenom()+" - "+this.getNom()+"\n date de naissance : "+this.getDteNaissance(); //To change body of generated methods, choose Tools | Templates.
+        return this.getPrenom()+" - "+this.getNom()+"\n date de naissance : "+this.getDteNaissance();
     }
 
 }
